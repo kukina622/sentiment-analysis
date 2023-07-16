@@ -1,6 +1,6 @@
-# Sentiment Analysis 專案
+# Sentiment Analysis
 
-這是一個情感分析（Sentiment Analysis）的專案，用於分析輸入的文字內容情緒。你可以使用提供的 API 來進行情感分析。
+用於分析輸入的文字內容情緒。可以使用提供的 API 來進行分析。
 
 ## 環境設定
 
@@ -11,7 +11,7 @@ pipenv install
 ```
 這將根據專案中的 Pipfile 安裝所有必要的相依套件。
 
-## 模型放置
+## 模型
 在開始使用情感分析 API 之前，請將訓練好的模型檔案放入 model 資料夾。
 
 ## API 使用方式
