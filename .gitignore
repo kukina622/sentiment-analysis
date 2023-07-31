@@ -1,2 +1,7 @@
 __pycache__
 results
+dataset
+model
+
+!dataset/.gitkeep
+!model/.gitkeep
