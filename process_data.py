@@ -34,8 +34,10 @@ def procrss_article(article, article_idx, all_article_count):
 start = time.time()
 dataset_folder = "./dataset"
 sentiment.load_model()
+filenames = os.listdir(dataset_folder)
+filenames = sorted(filenames, key=lambda x: int(x.split("-")[1]))
 
-for filename in os.listdir(dataset_folder):
+for filename in filenames:
   data = None
   try:
       with open(f'{dataset_folder}/{filename}', "r", encoding="utf-8") as f:
