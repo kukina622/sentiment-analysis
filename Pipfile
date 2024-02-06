@@ -9,6 +9,12 @@ uvicorn = {version = "*", extras = ["standard"]}
 transformers = "*"
 xformers = "*"
 opencc-python-reimplemented = "*"
+tqdm = "*"
+pandas = "*"
+openpyxl = "*"
+requests = "*"
+cd = "*"
+google-cloud-language = "*"
 
 [dev-packages]
 yapf = "*"
